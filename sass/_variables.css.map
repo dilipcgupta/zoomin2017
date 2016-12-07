@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "_variables.css",
+  "sources": [
+    "_variables.scss"
+  ],
+  "sourcesContent": [],
+  "mappings": "AAOA,kBAAkB;AAYlB,mCAAmC;AAQnC,uBAAuB",
+  "names": []
+}

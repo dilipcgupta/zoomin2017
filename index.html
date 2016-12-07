@@ -1,0 +1,451 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="images/favicon.ico">
+
+    <title>Photo books, Photo Prints | ZoomIn</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- font Decalaration -->  
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Source+Sans+Pro:200,300,400,600,700,900" rel="stylesheet">
+    
+    <!-- Custom styles for Select Form -->
+    <link href="css/bootstrap-select.min.css" rel="stylesheet">
+      
+    <!-- Custom styles for Home -->
+    <link href="css/homepage.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="js/ie-emulation-modes-warning.js"></script>
+    <script src="js/modernizr.js"></script>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="containerNav">
+          
+        <div class="navbar-slide pull-left">
+            <a id="leftNavTrig" href="#0">
+                <span class="iconNav"> </span>
+                <span class="NavTitle">CREATE</span>
+            </a>
+        </div>
+        
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">ZoomIn Online India Pvt. Ltd.</a>
+        </div>
+          
+        <div id="navbar" class="navbar-collapse pull-right gridItem">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Albums</a></li>
+            <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Ajay Menon</a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">Creation</a></li>
+                    <li><a href="#">Add Photos</a></li>
+                    <li><a href="#">Sign Out</a></li>                    
+                </ul>
+            </li>
+            <li class="active"><a href="#" class="zi-icons zi-cart">Cart</a></li>            
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+    <!--  left slide Navigation Start -->
+    <nav id="leftSlidenav">
+		<ul class="leftNav">
+			<li class="subnav">
+				<h3>Home Decor</h3>
+                <ul>
+                    <li><a href="#">Posters</a></li>
+                    <li><a href="#">Collage</a></li>
+                    <li><a href="#">Canvases</a></li>
+                    <li><a href="#">Framed Prints</a></li>
+                </ul>
+			</li> <!-- subnav -->
+
+			<li class="subnav">
+				<h3>Office Desk</h3>
+                <ul>
+                    <li><a href="#">Mug</a></li>
+                    <li><a href="#">Calendar</a></li>
+                    <li><a href="#">Framed Prints</a></li>
+                </ul>
+			</li> <!-- subnav -->
+
+			<li class="subnav">
+				<h3>Gifts</h3>
+                <ul>
+                    <li><a href="#">Mug</a></li>
+                    <li><a href="#">Note cards</a></li>
+                    <li><a href="#">Magnets</a></li>
+                    <li><a href="#">Canvases</a></li>
+                    <li><a href="#">Framed Prints</a></li>
+                </ul>
+			</li> <!-- subnav -->
+            <li class="subnav">
+				<h3>Photo Books</h3>
+                <ul>
+                    <li><a href="#">Easy Book</a></li>
+                    <li><a href="#">Flip Book</a></li>
+                    <li><a href="#">Hardcover</a></li>
+                    <li><a href="#">Lay flat</a></li>
+                </ul>
+			</li> <!-- subnav -->
+            <li class="subnav">
+				<h3>Prints</h3>
+                <ul>
+                    <li><a href="#">Photo Prints</a></li>
+                    <li><a href="#">Collage</a></li>
+                    <li><a href="#">Poster</a></li>
+                </ul>
+			</li> <!-- subnav -->
+            <li class="subnav">
+				<h3>My Account</h3>
+                <ul>
+                    <li><a href="#">Creations</a></li>
+                    <li><a href="#">Album</a></li>
+                    <li><a href="#">Cart ( <span class="cartCnt">5</span> )</a></li>
+                    <li><a href="#">Logout</a></li>
+                </ul>
+			</li> <!-- subnav -->
+		</ul> <!-- leftNav -->
+	</nav>
+    <!--    left slide Navigation End  -->
+ 
+    <main class="menuOverlay"><!-- for Overlay --></main>
+    
+    <!-- Carousel
+    ================================================== -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+            
+            <div class="heroBanner first-slide"></div>
+
+          <div class="container">
+            <div class="carousel-caption">
+<!--
+              <h1>Example headline.</h1>
+              <p>Note: If you're viewing this page via a <code>file://</code> URL, the "next" and "previous" Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
+-->
+            </div>
+          </div>
+        </div>
+       <div class="item">
+          <div class="heroBanner second-slide"></div>
+          <div class="container">
+            <div class="carousel-caption">
+<!-- 
+              <h1>Another example headline.</h1>
+              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+-->
+            </div>
+          </div>
+        </div>
+      <div class="item">
+          <div class="heroBanner third-slide"></div>          
+          <div class="container">
+            <div class="carousel-caption">
+  <!--
+              <h1>One more for good measure.</h1>
+              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+-->
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left " aria-hidden="true"><img src="images/arrow-left.png"> </span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"><img src="images/arrow-right.png"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div><!-- /.carousel -->
+
+    <div class="productContainer">
+        <div class="container">
+            <!-- Product Nav Div Start -->
+            <div class="prodShortNav">
+                <form post="">
+                    <select class="selectForm selectpicker" multiple>
+                        <option selected>All Products</option>
+                        <option>Photobooks</option>
+                        <option>Collage</option>
+                        <option>Canvases</option>
+                        <option>Photo Prints</option>
+                        <option>Mugs</option>
+                        <option>posters</option>
+                        <option>Calendars</option>
+                        <option>Magnets</option>
+                        <option>Easy Book</option>
+                        <option>Frame Prints</option>
+                        <option>Note Cards</option>
+                    </select>
+                    <div class="themeNavContainer">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#themeNavbar" aria-expanded="false" aria-controls="themeNavbar">
+                            <span class="themeTxt">Themes</span>
+                            <span class="bs-caret"><span class="caret"></span></span>
+                          </button>          
+                        </div>
+                        <div id="themeNavbar" class="collapse navbar-collapse">
+                            <ul class="themeNav">
+                                <li><a href="#" class="active">Baby</a></li>
+                                <li><a href="#">Family</a></li>
+                                <li><a href="#">Travel</a></li>
+                                <li><a href="#">Love</a></li>                            
+                                <li><a href="#">Rakhi</a></li>
+                                <li class="deals"><a href="#">Deals</a></li>
+                            </ul>  
+                        </div>
+                    </div>
+                                      
+                </form>            
+            </div>
+            <!-- Product Nav Div End -->
+            
+            <!-- Product catalogue Div Start -->
+            <div class="prodCat col-lg-12">
+                
+                <!-- Theme Banner Slide Start -->
+                <div class="themeBanner">
+                    <div id="themeCarousel" class="carousel slide" data-ride="carousel">
+                      <!-- Indicators -->
+                      
+                      <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                            <img src="images/product-panel-banner.jpg" class="first-slide">
+                        </div>                      
+                      </div>                          
+                    </div>                      
+                </div>
+                <!-- Theme Banner Slide End -->
+                <!-- Product Thumb Start -->
+                <div class="prodThumbContainer grid col-lg-12">
+                    
+                    <figure class="productThumb effect-zoe">
+                        <img src="images/baby/thumb-photobook.jpg">
+                        <figcaption>
+                            <h4>Photo Books</h4>
+                            <p class="description">Turn your photos into customized
+wall art.</p>
+                            <p class="btnDiv">
+                                <a href="http://zoomin.com" class="btn btn-md">Create Now</a>
+                            </p>
+
+                        </figcaption>			
+                    </figure>
+                    
+                    <figure class="productThumb effect-zoe">
+                        <img src="images/baby/thumb-canvas.jpg">
+                        <figcaption>
+                            <h4>Canvas Prints</h4>
+                            <p class="description">Turn your photos into customized
+wall art.</p>
+                            <p class="btnDiv">
+                                <a href="http://google.com" class="btn btn-md">Create Now</a>
+                            </p>
+
+                        </figcaption>			
+                    </figure>
+                    
+                    
+                    <figure class="productThumb effect-zoe">
+                        <img src="images/baby/thumb-easybook.jpg">
+                        <figcaption>
+                            <h4>Easy Book</h4>
+                            <p class="description">Turn your photos into customized
+wall art.</p>
+                            <p class="btnDiv">
+                                <a href="http://yahoo.com" class="btn btn-md">Create Now</a>
+                            </p>
+
+                        </figcaption>			
+                    </figure>
+                    
+                    
+                    <figure class="productThumb effect-zoe">
+                        <img src="images/baby/thumb-calendar.jpg">
+                        <figcaption>
+                            <h4>Calendars</h4>
+                            <p class="description">Turn your photos into customized
+wall art.</p>
+                            <p class="btnDiv">
+                                <a href="#" class="btn btn-md">Create Now</a>
+                            </p>
+
+                        </figcaption>			
+                    </figure>
+                    
+                    
+                    <figure class="productThumb effect-zoe">
+                        <img src="images/baby/thumb-mugs.jpg">
+                        <figcaption>
+                            <h4>Mugs</h4>
+                            <p class="description">Turn your photos into customized
+wall art.</p>
+                            <p class="btnDiv">
+                                <a href="#" class="btn btn-md">Create Now</a>
+                            </p>
+
+                        </figcaption>			
+                    </figure>
+                    
+                    
+                    <figure class="productThumb effect-zoe">
+                        <img src="images/baby/thumb-collage.jpg">
+                        <figcaption>
+                            <h4>Collage</h4>
+                            <p class="description">Turn your photos into customized
+wall art.</p>
+                            <p class="btnDiv">
+                                <a href="#" class="btn btn-md">Create Now</a>
+                            </p>
+
+                        </figcaption>			
+                    </figure>
+                    
+                </div>
+                <!-- Product Thumb End -->
+            </div>
+            <!-- Product catalogue Div End -->
+        </div>
+        <!-- /container -->   
+    </div> <!-- /productContainer -->
+    
+    <!-- Social Media Images strip Start -->
+    <div class="socialContainer">
+        <h2 class="line">some of our Happy Customers</h2>
+        <div class=""></div>
+    </div>
+    <!-- Social Media Images strip End -->
+    
+    <!-- Footer Start -->
+    <footer>
+        
+        <div class="footerMain">
+            <div class="footNav col-lg-4 col-md-3 col-sm-4 col-xs-6">
+                <h6 class="col-md-10 col-lg-7 col-sm-10 col-xs-10">CREATE</h6>
+                <ul class="footNavlist col-lg-8 col-sm-10 col-xs-10">
+                    <li><a href="#">Photobooks</a></li>
+                    <li><a href="#">Collage <sup>New</sup></a></li>
+                    <li><a href="#">Canvases</a></li>
+                    <li><a href="#">Easy Book</a></li>                
+                    <li><a href="#">Photo Prints</a></li>
+                    <li><a href="#">Framed Prints</a></li>                
+                    <li><a href="#">Posters</a></li>
+                    <li><a href="#">Note Cards</a></li>                
+                    <li><a href="#">Calendars</a></li>
+                    <li><a href="#">Zig Zag Minis</a></li>                
+                    <li><a href="#">Mugs</a></li>
+                    <li><a href="#">Frames</a></li>                
+                    <li><a href="#">Magnets</a></li>                
+                </ul>
+            </div>
+
+            <div class="footNav col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                <h6 class="col-md-8 col-lg-6 col-sm-7 col-xs-10">ORDERING</h6>
+                <ul class="footNavlist col-lg-6 col-sm-8 col-xs-9">
+                    <li><a href="#">Order Status</a></li>
+                    <li><a href="#">Prices</a></li>
+                    <li><a href="#">Prepaid Packs</a></li>
+                    <li><a href="#">Bulk Orders</a></li>                
+                    <li><a href="#">Safe Shopping</a></li>
+                    <li><a href="#">Refer a Friend</a></li>                
+                    <li><a href="#">Rewards</a></li>
+                </ul>
+            </div>
+
+            <div class="footNav col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                <h6 class="col-md-8 col-lg-6 col-sm-7 col-xs-10">OUR COMPANY</h6>
+                <ul class="footNavlist col-lg-6 col-sm-8 col-xs-9">
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Press</a></li>
+                    <li><a href="#">Service Promise</a></li>
+                    <li><a href="#">Blog</a></li>                
+                    <li><a href="#">Careers</a></li>
+                    <li class="linkApp"><a href="#">ZoomIn App</a></li>                
+                    <li><a href="#">Help Desk</a></li>
+                </ul>
+            </div>
+
+            <div class="footNav col-lg-2 col-md-3 col-sm-2 col-xs-6">
+                <h6 class="col-md-10 col-lg-9 col-sm-12 col-xs-10">COUNTRY</h6>
+                <div class="clearfix"></div>
+                <select class="selectpicker">
+                    <option class="flagIndia">India</option>
+                    <option class="flagUsa">USA</option>
+                    <option class="flagSg">Singapore</option>
+                    <option class="flagGlobal">Global</option>
+                </select>
+                <div class="clearfix"><br><br></div>
+                <h6 class="col-md-10 col-lg-9 col-sm-12 col-xs-10">Social Connections</h6>
+                <div class="clearfix"></div>
+                <ul class="socialIcon">
+                    <li><a href="#" class="zi-icons zi-fb">Facebook</a></li>
+                    <li><a href="#" class="zi-icons zi-ig">Instagram</a></li>
+                    <li><a href="#" class="zi-icons zi-gplus">G+</a></li>
+                </ul>
+
+
+            </div>
+        </div>
+        <div class="clearfix"></div>
+        
+        <div class="appStoreDiv">
+            <h2 class="line">DOWNLOAD ZOOMIN APP</h2>
+            <a href="#" class="iosStore">App Store</a>
+            <a href="#" class="playStore">Play Store</a>
+        </div>
+
+        <div class="copyRight">
+            <p> &copy; 2009-2016 ZoomIn <a href="#" class="underLineEffect">Privacy</a> | <a href="#" class="underLineEffect">Terms of Use</a></p>
+        </div>
+        
+    </footer>
+    <!-- Footer End -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')</script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/docs.min.js"></script>
+     <script src="js/bootstrap-select.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+    <script src="js/home_main.js"></script>
+  </body>
+</html>

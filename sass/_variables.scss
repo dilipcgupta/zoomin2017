@@ -1,0 +1,50 @@
+// colors
+
+
+$head-font: 'Montserrat', sans-serif;
+
+$para-font: 'Source Sans Pro', sans-serif;
+
+/* color define */
+$primary-orange:#ff4708;
+$secondary-orange:#ff5a21;
+$primary-green:#81c300;
+$secondary-green:#95d736;
+$primary-aqua:#00c099;
+$secondary-aqua:#00d4ac;
+$primary-blue:#05c0f5;
+$secondary-blue:#3fd0f5;
+$light-blue:#6fdcf7;
+$lighter-blue:#9fe7fa;
+
+/* font and other element Colors */
+$primary-font-color:#414a57;
+$secondary-font-color:#626d7b;
+$darker-font-color:#969daa;
+$dark-font-color:#d4d7dd;
+$light-font-color:#e5e9ef;
+$lighter-font-color:#f6f7fc;
+
+/* background colors */
+$white-bg:#fff;
+$grey-bg-01:#fcfcfc;
+$grey-bg-02:#fafafa;
+$grey-bg-03:#f7f7f7;
+$grey-bg-04:#f4f4f4;
+$grey-bg-05:#f2f2f2;
+$grey-bg-06:#f0f0f0;
+$black-bg:#000;
+
+
+$icons:url('../images/sprite.svg');
+
+// z-index 
+
+$secondary-nav: 1;
+$content-zindex: 2;
+$header-zindex: 3;
+
+// header height 
+
+$header-S: 59px;
+$header-M: 59px;
